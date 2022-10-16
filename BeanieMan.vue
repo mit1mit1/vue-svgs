@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Beanie from "./BeanieFigure.vue";
 import Man from "./ManFigure.vue";
-import { availableLimbPositions } from "../constants/limbPositions";
-import type { LimbPositions } from "../constants/limbPositions";
+import { availableLimbPositions } from "./constants/limbPositions";
+import type { LimbPositions } from "./constants/limbPositions";
 
 type BeanieManProps = {
   minimumX?: number;

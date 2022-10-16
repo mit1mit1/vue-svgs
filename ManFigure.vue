@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { withDefaults } from "vue";
-import { availableLimbPositions } from "../constants/limbPositions";
-import type { LimbPositions } from "../constants/limbPositions";
+import { availableLimbPositions } from "./constants/limbPositions";
+import type { LimbPositions } from "./constants/limbPositions";
 
 type ManProps = {
   minimumX?: number,
